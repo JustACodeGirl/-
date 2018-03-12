@@ -1,0 +1,26 @@
+.baseInfo {
+  &:hover {
+    box-shadow: none;
+    border-color: #f4f4f4;
+  }
+  :global {
+    .ant-row {
+      margin: .3em auto;
+      padding: .5em;
+      border-bottom: 1px dashed #dddddd;
+    }
+    .gutter-row span:nth-child(1) {
+      display: inline-block;
+      width: 30%;
+      text-align: right;
+      font-weight: bold;
+    }
+    .gutter-row span:nth-child(2) {
+      display: inline-block;
+      width: 60%;
+      margin-left: 10%;
+      word-break: keep-all;
+    }
+
+  }
+}
